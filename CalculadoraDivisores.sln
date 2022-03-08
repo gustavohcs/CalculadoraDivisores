@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraDivisores.Manager", "..\CalculadoraDivisores\CalculadoraDivisores.Manager\CalculadoraDivisores.Manager.csproj", "{A2D476B2-5F4F-4C57-BE24-1FF6E17FC891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Distribution", "Distribution", "{48AD077D-2B27-4D19-98D0-8C455B950C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9E6FD09F-648E-4AD9-9D66-7F4781C4247E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DF360842-FBC4-4344-9C56-72FDE610ED9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraDivisores.Domain", "..\CalculadoraDivisores\CalculadoraDivisores.Domain\CalculadoraDivisores.Domain.csproj", "{406B90F6-5F27-475A-A95B-B32F00EB1DC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{79ECCDA2-5219-449E-88DD-5DF268933C58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraDivisores.Infra", "..\CalculadoraDivisores\CalculadoraDivisores.Infra\CalculadoraDivisores.Infra.csproj", "{EBF7F501-9CE2-4C0B-97AB-948721630D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraDivisores.Tests", "..\CalculadoraDivisores\CalculadoraDivisores.Tests\CalculadoraDivisores.Tests.csproj", "{12FA9B74-CD9D-45AE-BA32-DE8020BC46EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2D476B2-5F4F-4C57-BE24-1FF6E17FC891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D476B2-5F4F-4C57-BE24-1FF6E17FC891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D476B2-5F4F-4C57-BE24-1FF6E17FC891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D476B2-5F4F-4C57-BE24-1FF6E17FC891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406B90F6-5F27-475A-A95B-B32F00EB1DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406B90F6-5F27-475A-A95B-B32F00EB1DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406B90F6-5F27-475A-A95B-B32F00EB1DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406B90F6-5F27-475A-A95B-B32F00EB1DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF7F501-9CE2-4C0B-97AB-948721630D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF7F501-9CE2-4C0B-97AB-948721630D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF7F501-9CE2-4C0B-97AB-948721630D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF7F501-9CE2-4C0B-97AB-948721630D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FA9B74-CD9D-45AE-BA32-DE8020BC46EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FA9B74-CD9D-45AE-BA32-DE8020BC46EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FA9B74-CD9D-45AE-BA32-DE8020BC46EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FA9B74-CD9D-45AE-BA32-DE8020BC46EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2D476B2-5F4F-4C57-BE24-1FF6E17FC891} = {48AD077D-2B27-4D19-98D0-8C455B950C90}
+		{406B90F6-5F27-475A-A95B-B32F00EB1DC8} = {DF360842-FBC4-4344-9C56-72FDE610ED9D}
+		{EBF7F501-9CE2-4C0B-97AB-948721630D70} = {79ECCDA2-5219-449E-88DD-5DF268933C58}
+		{12FA9B74-CD9D-45AE-BA32-DE8020BC46EE} = {9E6FD09F-648E-4AD9-9D66-7F4781C4247E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27DB829-F5BC-4D2B-85CC-1399AC1B3994}
+	EndGlobalSection
+EndGlobal
